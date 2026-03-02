@@ -22,6 +22,7 @@ exports.getBookings = async (req, res, next) => {
     });
   }
 
+  // catch error
   try {
     const bookings = await query;
 
